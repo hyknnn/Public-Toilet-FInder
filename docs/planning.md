@@ -18,4 +18,4 @@ Application could potentially make the user take longer or incorrect routes or e
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
 
-![Insert your Context Diagram Here](images/Project HTML.png)
+![Insert your Context Diagram Here](images/ProjectHTML.png)
