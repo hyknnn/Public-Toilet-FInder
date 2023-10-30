@@ -3,10 +3,16 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+As a drunk person, or just someone out who needs to use the toilet in general, I would like to know the nearest toilet is so I can move on quickly to the next club or bar or party.
+As a tourist, I would like to know these toilet locations in advance in order to plan my day out so I can alleviate possible stress from being in a foreign and unfamiliar city.
+As someone out late at night, I would like to know these locations in order to have a safe space to retreat to if needed.
 
 ### Actors
+Tourists
+Shoppers
+Drunk people
+Vulnerable people
+People that need the toilet
 TODO: List and describe the actors/users for this product.
 
 ### Use Cases
