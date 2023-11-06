@@ -20,13 +20,13 @@ UC2 - Find toilets by address
 
 | TODO: UC1 | TODO: Find toilets using a map | 
 | -------------------------------------- | ------------------- |
-| **Description** | Shows all nearby public toilets in a list including their locations by address |
-| **Actors** | Local Citizens, Shoppers |
-| **Assumptions** | The user has a device capable of running the app as well as knowledge of addresses / a way to arrive at specific addresses </td></tr>
-| **Steps** | <ol><li> User loads map</li><li>User inputs their own current location / give permission to let their location be tracked</li><li>Show all available public toilets and their distance to the user in a list</li></ol> |
+| **Description** | Shows all toilets on a map |
+| **Actors** | Drunk people, tourists, people that need the toilet |
+| **Assumptions** | The user has a device with GPS capabilites </td></tr>
+| **Steps** | <ol><li> User loads app</li><li>User gives permission to let their location be tracked</li><li>Show all available public toilets on the map</li></ol> |
 | **Variations** |  |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Non-functional** |  |
+| **Issues** |  |
 
 | TODO: UC2 | TODO: Find toilets using address | 
 | -------------------------------------- | ------------------- |
@@ -35,8 +35,8 @@ UC2 - Find toilets by address
 | **Assumptions** | The user has a device capable of running the app as well as knowledge of addresses / a way to arrive at specific addresses </td></tr>
 | **Steps** | <ol><li> User loads map</li><li>User inputs their own current location / give permission to let their location be tracked</li><li>Show all available public toilets and their distance to the user in a list</li></ol> |
 | **Variations** |  |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Non-functional** |  |
+| **Issues** |  |
 
 ![Insert your Use-Case Diagram Here](images/UseCaseDiagram.png)
 
