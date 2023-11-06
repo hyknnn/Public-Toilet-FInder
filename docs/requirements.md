@@ -28,8 +28,8 @@ UC2 - Find toilets by address
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-| UC2 | 
-| UC2 | Find public toilets nearest to me |
+| UC2 | Find Toilets using a list | 
+| -------------------------------------- | ------------------- |
 | **Description** | Shows all nearby public toilets in a list including their locations by address |
 | **Actors** | Local Citizens, Shoppers |
 | **Assumptions** | The user has a device capable of running the app as well as knowledge of addresses / a way to arrive at specific addresses </td></tr>
