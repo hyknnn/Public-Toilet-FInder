@@ -8,6 +8,7 @@ This project aims to help people find public toilets close to them.
 ### Business benefits
 Assist people finding toilets.<br>
 Display ads to create profit.<br>
+Citizens will also have a safe space via these toilets to get away from night-life if needed.<br>
 
 ### Options Considered
 Google maps<br>
