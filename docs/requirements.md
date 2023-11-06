@@ -15,7 +15,8 @@ People that need the toilet
 
 
 ### Use Cases
-UC1 - 
+UC1 - Find toilets using map
+UC2 - Find toilets by address
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
@@ -30,7 +31,7 @@ UC1 -
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](images/use-case.png)
+![Insert your Use-Case Diagram Here](images/UseCase-Diagram0.png)
 
 ## Software Requirements Specification
 ### Functional requirements
