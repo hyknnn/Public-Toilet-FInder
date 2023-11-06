@@ -18,7 +18,7 @@ People that need the toilet
 UC1 - Find toilets using map
 UC2 - Find toilets by address
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| TODO: UC1 | TODO: Find toilets using a map | 
 | -------------------------------------- | ------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
 | **Actors** | TODO: List of actors involved in use case |
