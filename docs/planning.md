@@ -10,7 +10,7 @@ Assist people finding toilets.<br>
 Display ads to create profit.<br>
 
 ### Options Considered
-Google maps
+Google maps<br>
 Other public toilet finders
 
 ### Expected Risks
