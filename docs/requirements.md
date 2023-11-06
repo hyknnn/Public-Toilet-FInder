@@ -31,7 +31,7 @@ UC2 - Find toilets by address
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](images/UseCase-Diagram0.png)
+![Insert your Use-Case Diagram Here](images/UseCaseDiagram.png)
 
 ## Software Requirements Specification
 ### Functional requirements
