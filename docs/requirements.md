@@ -33,14 +33,10 @@ UC2 - Find toilets by address
 | **Description** | Shows all nearby public toilets in a list including their locations by address |
 | **Actors** | Local Citizens, Shoppers |
 | **Assumptions** | The user has a device capable of running the app as well as knowledge of addresses / a way to arrive at specific addresses </td></tr>
-| **Steps** | <ol><li> User loads map</li><li>User inputs their own current location / give permission to let their location be tracked</li><li>Show all available public toilets and their distance to the user in a list</li></ol |
+| **Steps** | <ol><li> User loads map</li><li>User inputs their own current location / give permission to let their location be tracked</li><li>Show all available public toilets and their distance to the user in a list</li></ol> |
 | **Variations** |  |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
-
-
-
-TODO: Your Use-Case diagram should include all use-cases.
 
 ![Insert your Use-Case Diagram Here](images/UseCaseDiagram.png)
 
