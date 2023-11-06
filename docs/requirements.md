@@ -15,28 +15,29 @@ People that need the toilet
 
 
 ### Use Cases
-UC1 - Find toilets using map
+UC1 - Find toilets using map<br>
 UC2 - Find toilets by address
 
 | TODO: UC1 | TODO: Find toilets using a map | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Description** | Shows all nearby public toilets in a list including their locations by address |
+| **Actors** | Local Citizens, Shoppers |
+| **Assumptions** | The user has a device capable of running the app as well as knowledge of addresses / a way to arrive at specific addresses </td></tr>
+| **Steps** | <ol><li> User loads map</li><li>User inputs their own current location / give permission to let their location be tracked</li><li>Show all available public toilets and their distance to the user in a list</li></ol |
+| **Variations** |  |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-| UC2 | Find Toilets using a list | 
+| TODO: UC2 | TODO: Find toilets using address | 
 | -------------------------------------- | ------------------- |
 | **Description** | Shows all nearby public toilets in a list including their locations by address |
 | **Actors** | Local Citizens, Shoppers |
 | **Assumptions** | The user has a device capable of running the app as well as knowledge of addresses / a way to arrive at specific addresses </td></tr>
-| **Steps** | <ol><li> User loads map</li><li>User inputs their own current location / give permission to let their location be tracked</li><li>Show all available public toilets and their distance to the user in a list</li></ol> |
-| **Variations** | |
+| **Steps** | <ol><li> User loads map</li><li>User inputs their own current location / give permission to let their location be tracked</li><li>Show all available public toilets and their distance to the user in a list</li></ol |
+| **Variations** |  |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+
 
 
 TODO: Your Use-Case diagram should include all use-cases.
