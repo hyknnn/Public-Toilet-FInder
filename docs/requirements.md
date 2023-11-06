@@ -8,17 +8,14 @@ As a tourist, I would like to know these toilet locations in advance in order to
 As someone out late at night, I would like to know these locations in order to have a safe space to retreat to if needed.
 
 ### Actors
-Tourists
-Shoppers
-Drunk people
-Vulnerable people
-People that need the toilet
-TODO: List and describe the actors/users for this product.
+Tourists - People who may not know local directions
+Shoppers - 
+Drunk people - May not be able to find a toilet by themselves while under the influence
+People that need the toilet 
+
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
+UC1 - 
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
