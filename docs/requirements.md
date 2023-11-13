@@ -47,9 +47,28 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
 
+FR2.* are derived from UC2.
+
+FR2.1: The system should be able to collect the data of where the public toilets are from Open Data Bristol<br>
+FR2.2: The system should ask/obtain permission from the user to access their location or have the user input a location<br>
+FR2.3: The system should display both user location and public toilet locations using markers of some kind<br>
+FR2.4: The system should display the distances between the user location and public toilet locations<br>
+FR2.5: The system should list all the public toilet locations in a list displaying the distances to them and their general area<br>
+
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ... 
+
+NFR2.* are derived from UC2.
+
+NFR2.1: The system should use a default location of either the previous location inputted or the Bristol City Centre (Reliability)<br>
+NFR2.2: The previouslt inputted location by the user should be saved in a secure and encrypted location (Security)<br>
+NFR2.3: Source code should be available on GitHub (Maintainability)<br>
+NFR2.4: The app should work on a standard iPhone or android phone screen, but also fit to PC screens (Portability)<br>
+NFR2.5: The app should be quick to respond to the user's requests (Performance efficiency)<br>
+NFR2.6: The app should also work on website browsers (Compatibility)<br>
+NFR2.7: The markers shouldn't be so big that they obscure the map or negatively impact usage (Usability)<br>
+NFR2.8: Data should be regularly checked and updated (Functional suitability)<br>
 
 Indicate which UC the requirement comes from.
