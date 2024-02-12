@@ -39,7 +39,7 @@ UC2 - Find toilets by address
 | **Non-functional** | The public toilets addresses must be displayed in a list. |
 | **Issues** |  |
 
-(images/UseCaseDiagram.png)
+![Insert your Context Diagram Here](images/UseCaseDiagram.png)
 
 ## Software Requirements Specification
 ### Functional requirements
