@@ -4,12 +4,13 @@
 
 ### User stories
 As a drunk person, or just someone out who needs to use the toilet in general, I would like to know the nearest toilet is so I can move on quickly to the next club or bar or party.
+As a shopper, I would like to spend more time shopping and less time hunting around for a toilet.
 As a tourist, I would like to know these toilet locations in advance in order to plan my day out so I can alleviate possible stress from being in a foreign and unfamiliar city.
 As someone out late at night, I would like to know these locations in order to have a safe space to retreat to if needed.
 
 ### Actors
 Tourists - People who may not know local directions
-Shoppers - 
+Shoppers - People just looking for a quick toilet nearby
 Drunk people - May not be able to find a toilet by themselves while under the influence
 People that need the toilet 
 
@@ -24,8 +25,8 @@ UC2 - Find toilets by address
 | **Actors** | Drunk people, tourists, people that need the toilet |
 | **Assumptions** | The user has a device with GPS capabilites </td></tr>
 | **Steps** | <ol><li> User loads app</li><li>User gives permission to let their location be tracked</li><li>Show all available public toilets on the map</li></ol> |
-| **Variations** |  |
-| **Non-functional** |  |
+| **Variations** | Icons displaying the toilet locations on the map can change, and the public toilets which are available may be edited and changed and moved but still load even if the user doesn't give permission to let their permission be tracked. |
+| **Non-functional** | The public toilets locations must show on a map. |
 | **Issues** |  |
 
 | TODO: UC2 | TODO: Find toilets using address | 
@@ -34,8 +35,8 @@ UC2 - Find toilets by address
 | **Actors** | Local Citizens, Shoppers |
 | **Assumptions** | The user has a device capable of running the app as well as knowledge of addresses / a way to arrive at specific addresses </td></tr>
 | **Steps** | <ol><li> User loads map</li><li>User inputs their own current location / give permission to let their location be tracked</li><li>Show all available public toilets and their distance to the user in a list</li></ol> |
-| **Variations** |  |
-| **Non-functional** |  |
+| **Variations** | The locations must still load regardless of whether or not permission is given for their location to be tracked, or if an invalid location or none is given then a null value for the distance to user is given. |
+| **Non-functional** | The public toilets addresses must be displayed in a list. |
 | **Issues** |  |
 
 ![Insert your Use-Case Diagram Here](images/UseCaseDiagram.png)
