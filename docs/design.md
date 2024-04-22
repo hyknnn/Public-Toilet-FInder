@@ -1,7 +1,6 @@
 # Design
 
 ## User Interface design
-TODO: Specify and develop a user interface mockup using a wireframe. <br>
+The following below shows the intended and planned display for both "Map mode" and "Location mode" <br>
 ![](images/Wireframes.png)
 <br>
-TODO: repeat as necessary
