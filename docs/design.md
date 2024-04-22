@@ -2,7 +2,7 @@
 
 ## User Interface design
 TODO: Specify and develop a user interface mockup using a wireframe.
-(images/WireFrames.png)
+!(images/WireFrames.png)
 
-(images/WireFrame.png)
+!(images/WireFrames.png)
 TODO: repeat as necessary
