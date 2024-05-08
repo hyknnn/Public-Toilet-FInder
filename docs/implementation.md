@@ -1,11 +1,26 @@
 # Implementation
 
 ## Introduction
-TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
+The dataset, according to OpenDataBristol, may not be fully up to date, and they might not be completely accurate. For example, toilets in public stores or shopping centres may not be included, and the coordinates of the toilets that are included may not be 100% accurate. Some data, such as gendered toilets or their opening times have also been omitted. <br>
 
 ## Project Structure
-TODO: Provide an outline of the project folder structure and the role of each file within it.
-provide a table listing the number of jslint warnings/reports for each module.
+```
+└── 📁Website
+    └── designIndex.png
+    └── designMap.png
+    └── designType.png
+    └── designWireframes.png
+    └── distance.html
+    └── index.html
+    └── map.html
+    └── style.css
+    └── type.html
+    └── UseCaseDiagram.png
+```
+The png's are all the current images used to document the efforts so far. <br>
+The distance.html file should be the first page opened, leading to both type.html and map.html. <br>
+type.html leads to the table containing addresses, while map.html leads to the map version. <br>
+style.css is where all the CSS is stored. <br>
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
