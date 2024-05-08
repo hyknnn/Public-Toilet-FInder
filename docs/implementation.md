@@ -23,12 +23,11 @@ type.html leads to the table containing addresses, while map.html leads to the m
 style.css is where all the CSS is stored. <br>
 
 ## Software Architecture
-The main important components here are Bristol Open Data and 
+The main important components here are Bristol Open Data and MapBox, Bristol Open Data in order to find the locations of the toilets and to find the nearest ones and MapBox in order to display the map and the locations of the toilets.
 
 ![](images/implementationComponentsDiagram.png)
 
 ## Bristol Open Data API
-TODO: Document each query to Bristol Open Data
+These are the queries used to Bristol Open Data
 
 ![](images/implementationUMLClassDiagram.png)
-TODO: Repeat as necessary
