@@ -23,7 +23,7 @@ type.html leads to the table containing addresses, while map.html leads to the m
 style.css is where all the CSS is stored. <br>
 
 ## Software Architecture
-TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
+The main important components here are Bristol Open Data and 
 
 ![](images/implementationComponentDiagram.png)
 
