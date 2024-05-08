@@ -25,7 +25,7 @@ style.css is where all the CSS is stored. <br>
 ## Software Architecture
 The main important components here are Bristol Open Data and 
 
-![](images/implementationComponentDiagram.png)
+![](images/implementationComponentsDiagram.png)
 
 ## Bristol Open Data API
 TODO: Document each query to Bristol Open Data
