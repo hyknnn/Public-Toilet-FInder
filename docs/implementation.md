@@ -25,10 +25,10 @@ style.css is where all the CSS is stored. <br>
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
-![Insert your component Diagram here](images/component.png)
+![](images/implementationComponentDiagram.png)
 
 ## Bristol Open Data API
 TODO: Document each query to Bristol Open Data
 
-![UML Class diagrams representing JSON query results](images/class1.png)
+![](images/implementationUMLClassDiagram.png)
 TODO: Repeat as necessary
