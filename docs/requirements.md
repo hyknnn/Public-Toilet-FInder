@@ -45,20 +45,19 @@ UC2 - Find toilets by address
 ### Functional requirements
 
 FR1.* are derived from UC1.
-FR1.1: The system should be able to load the page
-FR1.2: The system should be able to load the map of Bristol
-FR1.3: The system should be able ask for permission to use their location
-FR1.4: The system should have be able to locate where the user is on the map
-FR1.5: The system should load all toilet locations via markers on the map.
+
+FR1.1: The system should be able to load the page <br>
+FR1.2: The system should be able to load the map of Bristol <br>
+FR1.3: The system should be able ask for permission to use their location <br>
+FR1.4: The system should have be able to locate where the user is on the map <br>
+FR1.5: The system should load all toilet locations via markers on the map. <br>
 
 FR2.* are derived from UC2.
 
-FR2.1: The system should be able to collect the data of where the public toilets are from Open Data Bristol<br>
+FR2.1: The system should be able to collect and display the data of the locations of the public toilets are from Open Data Bristol<br>
 FR2.2: The system should ask/obtain permission from the user to access their location or have the user input a location<br>
-FR2.3: The system should display both user location and public toilet locations using markers of some kind<br>
+FR2.3: The system should display the nearest public toilet<br>
 FR2.4: The system should display the distances between the user location and public toilet locations<br>
-FR2.5: The system should list all the public toilet locations in a list displaying the distances to them and their general area<br>
-
 
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
@@ -66,14 +65,19 @@ Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 NFR1.* are derived from UC1.
 
-NFR1.1: The system should show further details about the exact locations of the toilets. <br>
-NFR1.2: The system should somehow note the nearest toilet in regards to the user's location. <br>
-NFR1.3: The system should also be able to find toilets via area boundaries rather than just specific locations or addresses. <br>
+NFR1.1: The system should use a default location of either the previous location inputted or the city centre. (Reliability)<br>
+NFR1.2: The previously inputted location by the user should be saved in a secure and encrypted location (Security)<br>
+NFR1.3: Source code should be available on GitHub (Maintainability)<br>
+NFR1.4: The app should work on a standard iPhone or android phone screen, but also fit to PC screens (Portability)<br>
+NFR1.5: The app should be quick to respond to the user's requests (Performance efficiency)<br>
+NFR1.6: The app should also work on website browsers (Compatibility)<br>
+NFR1.7: The markers shouldn't be so big that they obscure the map or negatively impact usage (Usability)<br>
+NFR1.8: Data should be regularly checked and updated (Functional suitability)<br>
 
 NFR2.* are derived from UC2.
 
 NFR2.1: The system should use a default location of either the previous location inputted or the Bristol City Centre (Reliability)<br>
-NFR2.2: The previouslt inputted location by the user should be saved in a secure and encrypted location (Security)<br>
+NFR2.2: The previously inputted location by the user should be saved in a secure and encrypted location (Security)<br>
 NFR2.3: Source code should be available on GitHub (Maintainability)<br>
 NFR2.4: The app should work on a standard iPhone or android phone screen, but also fit to PC screens (Portability)<br>
 NFR2.5: The app should be quick to respond to the user's requests (Performance efficiency)<br>
