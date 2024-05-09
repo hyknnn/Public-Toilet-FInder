@@ -14,7 +14,7 @@ Test Case 2 should test all of the following: <br>
 - makes sure the table can be filtered by search. <br>
 - makes sure the table can be filtered by distance. <br>
 
-Test Runs 
+Test Runs \
 
 | Use-Case ID | Requirement ID | Test Case | Status | <br>
 | UC1 ------- | FR1.1 -------- | TC1 ----- | PASS   | <br>
@@ -27,4 +27,17 @@ Test Runs
 | UC2 ------- | FR2.3 -------- | TC2 ----- | FAIL    | <br>
 | UC2 ------- | FR2.4 -------- | TC2 ----- | FAIL    | <br>
 <br>
-FR2.3 and FR2.4 are both a fail as I was unable to get the system to correctly find and display the distance from user to the toilets.
+FR2.3 and FR2.4 are both a fail as I was unable to get the system to correctly find and display the distance from user to the toilets.<br>
+
+![](docs/images/testing1.1.png) <br>
+The above is a photo of the map page before permissions are allowed.<br>
+<br>
+![](docs/images/testing1.2.png) <br>
+The above is a photo of the page asking for permission to use the user's location.<br>
+<br>
+![](docs/images/testing1.3.png) <br>
+The above is a photo of the page after permissions have been granted.
+<br>
+--------------------------------------
+![](docs/images/testing2.1.png) <br>
+The above is a photo of the "type" page.
