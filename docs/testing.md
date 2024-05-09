@@ -22,7 +22,7 @@ Test Runs \
 | UC1 ------- | FR1.3 -------- | TC1 ----- | PASS   | <br>
 | UC1 ------- | FR1.4 -------- | TC1 ----- | PASS   | (it only centres on the user's location, however, it doesn't put a marker where the user is)<br>
 | UC1 ------- | FR1.5 -------- | TC1 ----- | PASS   | <br>
-| UC2 ------- | FR2.1 -------- | TC2 ----- | PASS   | <br>
+| UC2 ------- | FR2.1 -------- | TC2 ----- | PASS   | <br> (but only displays the locations, not the names)
 | UC2 ------- | FR2.2 -------- | TC2 ----- | PASS   | <br>
 | UC2 ------- | FR2.3 -------- | TC2 ----- | FAIL    | <br>
 | UC2 ------- | FR2.4 -------- | TC2 ----- | FAIL    | <br>
