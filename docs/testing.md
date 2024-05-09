@@ -25,7 +25,7 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | UC1 ------- | FR1.5 -------- | TC1 ----- | PASS   | <br>
 | UC2 ------- | FR2.1 -------- | TC2 ----- | PASS   | <br>
 | UC2 ------- | FR2.2 -------- | TC2 ----- | PASS   | <br>
-| UC2 ------- | FR2.3 -------- | TC2 ----- | FAIL   | <br>
-| UC2 ------- | FR2.4 -------- | TC2 ----- | FAIL   | <br>
+| UC2 ------- | FR2.3 -------- | TC2 ----- | FAIL    | <br>
+| UC2 ------- | FR2.4 -------- | TC2 ----- | FAIL    | <br>
 <br>
 FR2.3 and FR2.4 are both a fail as I was unable to get the system to correctly find and display the distance from user to the toilets.
