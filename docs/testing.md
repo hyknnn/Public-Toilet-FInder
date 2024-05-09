@@ -36,8 +36,8 @@ The above is a photo of the map page before permissions are allowed.<br>
 The above is a photo of the page asking for permission to use the user's location.<br>
 <br>
 ![](images/testing1.3.png) <br>
-The above is a photo of the page after permissions have been granted.
+The above is a photo of the map after permissions have been granted.
 <br>
 --------------------------------------
-![](docs/images/testing2.1.png) <br>
+![](images/testing2.1.png) <br>
 The above is a photo of the "type" page.
