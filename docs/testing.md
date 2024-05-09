@@ -29,13 +29,13 @@ Test Runs \
 <br>
 FR2.3 and FR2.4 are both a fail as I was unable to get the system to correctly find and display the distance from user to the toilets.<br>
 
-![](docs/images/testing1.1.png) <br>
+![](images/testing1.1.png) <br>
 The above is a photo of the map page before permissions are allowed.<br>
 <br>
-![](docs/images/testing1.2.png) <br>
+![](images/testing1.2.png) <br>
 The above is a photo of the page asking for permission to use the user's location.<br>
 <br>
-![](docs/images/testing1.3.png) <br>
+![](images/testing1.3.png) <br>
 The above is a photo of the page after permissions have been granted.
 <br>
 --------------------------------------
