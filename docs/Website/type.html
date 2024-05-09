@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Toilet Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&family=Roboto:wght@500&display=swap">
+  <script>
+    function outputTable(json) {
+      let element = document.getElementById("results");
+      element.innerHTML = "";
+      let features = json.features;
+      for (let i = 0; i < features.length; i++) {
+        let tr = document.createElement('tr');
+        let a = features[i].attributes;
+        let tdName = document.createElement('td');
+        tdName.textContent = a.NAME;
+        let tdAddress = document.createElement('td');
+        tdAddress.textContent = a.ADDRESS;
+        tr.appendChild(tdName);
+        tr.appendChild(tdAddress);
+        element.appendChild(tr);
+      }
+    }
+    
+    function filter(where) {
+      let urlEncoded = encodeURIComponent(where);
+      let url = `https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/21/query?where=1%3D1&outFields=TOILET_NAME,ADDRESS&outSR=4326&f=json`;
+      fetch(url)
+      .then(response => response.json())
+      .then(outputTable)
+    }
+
+    function getLocation(page) {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+            function(loc) { //permission granted
+            location.href = 
+          `${page}?lat=${loc.coords.latitude}&lon=${loc.coords.longitude}`;
+        }
+          )
+        }
+        else { //unsupported feature
+        alert("Geolocation is not supported by this browser.");
+      //location defaults to central Bristol
+        location.href = `${page}?lat=51.454514&lon=-2.587910`;
+      }
+      }
+      
+    document.addEventListener("DOMContentLoaded", function() {
+      filter('Ashton');
+    });
+  </script>
+</head>  
+<body>
+  <div class="grid-container">
+    <header>
+      <span class="gold padded"><a href="index.html">Public Toilet Finder</a></span>
+      <form class="search" action="search.html">
+        <input name="searchterm" placeholder="Search.." type="text" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </header>
+    <nav class="w3-container w3-margin">
+      <button onclick="location.href='map.html'" class="w3-button w3-block w3-blue w3-margin-top">Find on map</button>
+      <button onclick="location.href='chart.html'" class="w3-button w3-block w3-blue w3-margin-top">Maintainers</button>
+    </nav>
+    <main>
+      <div class="w3-bar">
+        <button class="w3-bar-item w3-button w3-ripple w3-green" onclick="filter('Ashton')">Ashton</button>
+        <button class="w3-bar-item w3-button w3-ripple w3-green" onclick="filter('Canford')">Canford</button>
+        <button class="w3-bar-item w3-button w3-ripple w3-green" onclick="filter('Hengrove')">Hengrove</button>
+        <button onclick="getLocation('map.html')">Allow your location</button>
+      </div>
+      <table class="w3-table w3-bordered">
+        <thead>
+          <tr><th>Name</th><th>Address</th></tr>
+        </thead>
+        <tbody id="results">
+        </tbody>
+      </table>
+    </main>
+  </div>
+</body>
+</html>
