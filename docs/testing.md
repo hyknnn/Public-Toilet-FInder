@@ -15,13 +15,12 @@ Test Case 2 should test all of the following: <br>
 - makes sure the table can be filtered by distance. <br>
 
 Test Runs 
-Create a requirements traceability matrix to validate the completeness of the product.
 
 | Use-Case ID | Requirement ID | Test Case | Status | <br>
 | UC1 ------- | FR1.1 -------- | TC1 ----- | PASS   | <br>
 | UC1 ------- | FR1.2 -------- | TC1 ----- | PASS   | <br>
 | UC1 ------- | FR1.3 -------- | TC1 ----- | PASS   | <br>
-| UC1 ------- | FR1.4 -------- | TC1 ----- | PASS   | <br>
+| UC1 ------- | FR1.4 -------- | TC1 ----- | PASS   | (it only centres on the user's location, however, it doesn't put a marker where the user is)<br>
 | UC1 ------- | FR1.5 -------- | TC1 ----- | PASS   | <br>
 | UC2 ------- | FR2.1 -------- | TC2 ----- | PASS   | <br>
 | UC2 ------- | FR2.2 -------- | TC2 ----- | PASS   | <br>
