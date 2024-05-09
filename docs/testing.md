@@ -39,5 +39,5 @@ The above is a photo of the page asking for permission to use the user's locatio
 The above is a photo of the map after permissions have been granted.
 <br>
 --------------------------------------
-![](images/testing2.1.png) <br>
+![](images/testing2.png) <br>
 The above is a photo of the "type" page.
