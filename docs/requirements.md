@@ -44,6 +44,13 @@ UC2 - Find toilets by address
 ## Software Requirements Specification
 ### Functional requirements
 
+FR1.* are derived from UC1.
+FR1.1: The system should be able to load the page
+FR1.2: The system should be able to load the map of Bristol
+FR1.3: The system should be able ask for permission to use their location
+FR1.4: The system should have be able to locate where the user is on the map
+FR1.5: The system should load all toilet locations via markers on the map.
+
 FR2.* are derived from UC2.
 
 FR2.1: The system should be able to collect the data of where the public toilets are from Open Data Bristol<br>
@@ -56,6 +63,12 @@ FR2.5: The system should list all the public toilet locations in a list displayi
 ### Non-Functional Requirements
 TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ... 
+
+NFR1.* are derived from UC1.
+
+NFR1.1: The system should show further details about the exact locations of the toilets. <br>
+NFR1.2: The system should somehow note the nearest toilet in regards to the user's location. <br>
+NFR1.3: The system should also be able to find toilets via area boundaries rather than just specific locations or addresses. <br>
 
 NFR2.* are derived from UC2.
 
